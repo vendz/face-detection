@@ -1,7 +1,7 @@
 import cv2
 
 # Load some pre-trained data of frontal-face opencv
-trained_face_data = cv2.CascadeClassifier('/Users/vanditkhushee/Downloads/vandit/programming/python/face detection/haarcascade_frontalface_default.xml')
+trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # To capture video from webcam
 webcam = cv2.VideoCapture(0)    # here (0) means it will select default cam
